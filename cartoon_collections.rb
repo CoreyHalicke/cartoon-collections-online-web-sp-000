@@ -19,6 +19,8 @@ def find_the_cheese(cheese)
   cheese.each do |ingredient|
     if cheese_types.any? {|type| type == ingredient}
       return ingredient
+    else 
+      NIL
     end
   end
 end
