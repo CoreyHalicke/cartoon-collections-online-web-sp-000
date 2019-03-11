@@ -20,5 +20,6 @@ def find_the_cheese(cheese)
     if cheese_types.any? {|type| type == ingredient}
       return ingredient
     end
+    NIL
   end
 end
